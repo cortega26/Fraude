@@ -1,4 +1,5 @@
 /* Reset básico */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
 body, h1, h2, h3, p {
     margin: 0;
     padding: 0;
@@ -41,6 +42,10 @@ h1 {
     color: #007BFF;
     margin-top: 10px;
     margin-bottom: 20px;
+}
+
+h1:hover {
+    text-decoration: underline;
 }
 
 main {
