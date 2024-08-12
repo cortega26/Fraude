@@ -8,7 +8,7 @@ body, h1, h2, h3, p {
 /* Estilos generales */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #f0f0f0;
     color: #333;
     display: flex;
     justify-content: center;
@@ -21,8 +21,32 @@ body {
     text-align: center;
     background-color: #fff;
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    width: 100%;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.flag {
+    width: 150px;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 1.5em;
+    color: #007BFF;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .counter {
@@ -32,20 +56,24 @@ body {
 .countdown {
     font-size: 1.5em;
     font-weight: bold;
-    color: #007BFF;
+    color: #FF5722;
     margin-left: 5px;
 }
 
 .text-section {
     margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-    color: #007BFF;
+    color: #333;
 }
 
 h3 {
-    color: #333;
+    color: #555;
 }
 
 p {
